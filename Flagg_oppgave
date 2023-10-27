@@ -1,9 +1,9 @@
-overlay-xy(rectangle(220, 20, "solid", "dark blue"),
-  0, -70,
-  overlay-xy(rectangle(20, 160, "solid", "dark blue"),
-    -60, 0,
-    overlay-xy(rectangle(220, 40, "solid", "white"),
-      0, -60,
-      overlay-xy(rectangle(40, 160, "solid", "white"),
-        -50, 0,
-        (rectangle(220, 160, "solid", "crimson"))))))
+overlay-xy(rectangle(220, 20, "solid", "dark blue"), #legger til et vannrett blått rektangel 
+  0, -70, #bestemmer posisjon for rektangel
+  overlay-xy(rectangle(20, 160, "solid", "dark blue"), #legger til et loddrett blått rektangel
+    -60, 0, #bestemmer posisjon for rektangel
+    overlay-xy(rectangle(220, 40, "solid", "white"), #legger til et vannrett hvitt rektangel
+      0, -60, #bestemmer posisjon for rektangel
+      overlay-xy(rectangle(40, 160, "solid", "white"), #legger til et loddrett hvitt rektangel
+        -50, 0, #bestemmer posisjon for rektangel
+        (rectangle(220, 160, "solid", "crimson")))))) #legger til det rød rektangelet som er bakgrunnen
